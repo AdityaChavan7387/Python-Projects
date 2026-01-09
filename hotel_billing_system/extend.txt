@@ -1,0 +1,7 @@
+Next Powerful Enhancements (Your Call)
+
+👉 Prevent duplicate item addition
+👉 Update item quantity in order
+👉 Delete item from order
+👉 Daily sales report
+👉 GST + service charge
