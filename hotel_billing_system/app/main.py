@@ -5,13 +5,11 @@ from contextlib import asynccontextmanager
 from app.database import Base, engine
 from app.routes import item_routes, order_routes, bill_routes
 from app.models import item_model, order_model, order_item_model
-from fastapi import FastAPI
-from app.database import Base, engine
 from app.routes import auth_routes, dept_routes
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Hotel Department Management System")
+app = FastAPI(title="Mini Hotel Belling System")
 
 @app.get("/")
 def health():

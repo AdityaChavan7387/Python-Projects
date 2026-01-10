@@ -14,6 +14,6 @@ def register_user(db: Session, username, password, role):
 
 def authenticate_user(db: Session, username, password):
     user = db.query(User).filter(User.username == username).first()
-    if user and verify_password(password, user.password):
+    if user and verify_password(password, user.password): # type: ignore
         return user
     return None
