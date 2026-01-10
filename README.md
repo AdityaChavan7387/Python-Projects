@@ -22,3 +22,44 @@ A collection of professional Python applications and backend systems.
 ```bash
 git clone [https://github.com/AdityaChavan7387/Python-Projects.git](https://github.com/AdityaChavan7387/Python-Projects.git)
 cd Python-Projects
+
+2. Create a Virtual Environment (Recommended)
+This keeps your project dependencies organized and separate from your system Python.
+
+Bash
+
+# Create the environment
+python -m venv venv
+
+# Activate it (Linux/macOS)
+source venv/bin/activate
+
+# Activate it (Windows)
+.\venv\Scripts\activate
+3. Install Dependencies
+Install the necessary libraries using pip:
+
+Bash
+
+pip install -r requirements.txt
+4. Run a Project
+Navigate into the specific project folder and run the main script:
+
+Bash
+
+cd hotel_billing_system
+python main.py
+👤 Author
+Aditya Chavan - GitHub Profile
+
+
+5.  **Scroll down** to the "Commit changes..." box.
+6.  **Type a message** like "Create professional README" and click **Commit changes**.
+
+---
+
+### ⚠️ Important Next Step
+After you edit files manually on GitHub, your laptop will be "behind" the website. You **must** run this command in your terminal on your laptop to sync the new README:
+
+```bash
+git pull origin main
