@@ -49,17 +49,7 @@ Bash
 
 cd hotel_billing_system
 python main.py
+```bash
+
 👤 Author
 Aditya Chavan - GitHub Profile
-
-
-5.  **Scroll down** to the "Commit changes..." box.
-6.  **Type a message** like "Create professional README" and click **Commit changes**.
-
----
-
-### ⚠️ Important Next Step
-After you edit files manually on GitHub, your laptop will be "behind" the website. You **must** run this command in your terminal on your laptop to sync the new README:
-
-```bash
-git pull origin main
